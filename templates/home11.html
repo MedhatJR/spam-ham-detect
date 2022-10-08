@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <style>
+      h1 {
+        font-family: "Times New Roman", Times, serif;
+        padding-bottom: 50px;
+		font-size: 80px;
+      }
+	  h2{
+		font-family: 'Times New Roman', Times, serif;
+		font-size: 40px;
+	  }
+	  .box{
+		padding: 20px;
+		width: 400px;
+		border-radius: 10px;
+		font-size: 20px;
+	  }
+	  .btn {
+  background: #EAf6f6;
+  background-image: -webkit-linear-gradient(top, #EAf6f6, #2980b9);
+  background-image: -moz-linear-gradient(top, #EAf6f6, #2980b9);
+  background-image: -ms-linear-gradient(top, #EAf6f6, #2980b9);
+  background-image: -o-linear-gradient(top, #EAf6f6, #2980b9);
+  background-image: linear-gradient(to bottom, #EAf6f6, #2980b9);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Arial;
+  color: black;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.btn:hover {
+  background: #ebebeb;
+  background-image: -webkit-linear-gradient(top, #ebebeb, #34d973);
+  background-image: -moz-linear-gradient(top, #ebebeb, #34d973);
+  background-image: -ms-linear-gradient(top, #ebebeb, #34d973);
+  background-image: -o-linear-gradient(top, #ebebeb, #34d973);
+  background-image: linear-gradient(to bottom, #ebebeb, #34d973);
+  text-decoration: none;
+}
+      body {
+        background-color: #EAf6f6;
+        text-align: center;
+        padding: 20px;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <!-- <header>add the message here</header> -->
+    <h1>Ham/Spam messages detection</h1>
+    <h2>Please enter your message in the textbox below</h3>
+    <form name="passdata" , method="post">
+      <input type="text" , name="msg" , size="" class="box" />
+	  <br>
+      <input type="submit" , name="predict" class="btn" />
+    </form>
+  </body>
+</html>
